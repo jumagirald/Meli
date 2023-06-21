@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "620ab0ce-abfc-423d-9125-2f906c8378de",
+		"name": "challenge_meli",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7156358"
+	},
+	"item": [
+		{
+			"name": "insertar usuarios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/insertar",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"insertar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultar usuarios",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "18ee195b-e0a9-4e59-8741-591adfc90959",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/consultar",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"consultar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "validar estado servicio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/estado",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"estado"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
